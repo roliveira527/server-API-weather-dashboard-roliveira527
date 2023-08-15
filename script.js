@@ -41,7 +41,7 @@ function displayWeather(weatherData) {
   // Process and display current conditions
   const currentWeather = weatherData.list[0];
 
-  const currentCity = currentWeather.name;
+  const currentCity = weatherData.city.name; // Corrected reference
   const currentDate = dayjs.unix(currentWeather.dt).format("YYYY-MM-DD");
   const currentIcon = currentWeather.weather[0].icon;
   const currentTemp = (currentWeather.main.temp - 273.15).toFixed(1); // Convert to Celsius
@@ -69,7 +69,7 @@ function displayWeather(weatherData) {
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h5>${forecastDate}</h5>
+              <h5>${currentCity} (${forecastDate})</h5>
               <img src="https://openweathermap.org/img/w/${forecastIcon}.png" alt="${forecast.weather[0].description}" />
               <p>Temp: ${forecastTemp} °C</p>
               <p>Humidity: ${forecastHumidity}%</p>
