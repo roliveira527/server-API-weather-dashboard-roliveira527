@@ -1,4 +1,4 @@
-var apiKey = config.secretKey;
+var apiKey = "1bbcd8f8e2b52ff1b096e1dbb91ffa84";
 
 // References to HTML elements
 const searchForm = document.querySelector("#search-form");
