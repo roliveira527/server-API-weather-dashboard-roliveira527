@@ -1,5 +1,18 @@
 # Module 8 Server-Side APIs: Weather Dashboard
 
+## Description
+
+This project involves developing a weather dashboard using DOM Manipulation, advanced JavaScript, and integration of third party APIs. The user is able to input the name of a city and the app will fetch the weather data for that city.
+
+## Deployment
+
+The project is deployed in the following URL: https://roliveira527.github.io/server-API-weather-dashboard-roliveira527/
+
+## Screenshots
+
+Screenshot of the working Weather Dashboard application:
+![Screenshot of workign Weather Dashboard web application, displaying the weather for London.](./assets/screenshot.png)
+
 ## Your Task
 
 Server APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
