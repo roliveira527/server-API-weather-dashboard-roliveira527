@@ -1,0 +1,72 @@
+/* Global styling */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Basic styling for the header */
+.weather-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .weather-header h1 {
+    margin: 0;
+    padding: 1rem 0;
+  }
+  
+  /* Form styling */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .weather-search {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .weather-hr {
+    margin-top: 1rem;
+  }
+  
+  /* Styling for history list */
+  .list-group-item {
+    cursor: pointer;
+  }
+  
+  /* Styling for weather sections */
+  .card {
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  /* Styling for forecast cards */
+  .card-body h5 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .card-body img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
